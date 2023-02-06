@@ -1,0 +1,32 @@
+.content {
+  margin: 0px auto;
+  width: 1000px;
+}
+
+.grid-container {
+  width: 800px;
+  height: 800px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  flex: 1;
+}
+
+.cell {
+  flex: 1;
+}
+
+.control {
+  display: flex;
+  justify-content: space-around;
+  margin: 18px;
+}
+
+button {
+  background-color: transparent;
+  width: 120px;
+}
